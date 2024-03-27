@@ -10,6 +10,7 @@
   margin-bottom: 32px;
 }
 .friendItem {
+  width: 120px;
   padding: 16px;
   border: 2px solid black;
   border-radius: 4px;
