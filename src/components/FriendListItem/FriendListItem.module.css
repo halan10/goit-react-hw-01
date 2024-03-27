@@ -1,0 +1,12 @@
+.title {
+  margin: 8px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.isOnline {
+  color: green;
+}
+.isOffline {
+  color: red;
+}

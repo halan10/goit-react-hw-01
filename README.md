@@ -1,8 +1,14 @@
-# React + Vite
+Завдання 1 - Профіль соціальної мережі
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Необхідно створити компонент <Profile>, за допомогою якого ми могли б
+відображати інформацію про користувача соціальної мережі.
 
-Currently, two official plugins are available:
+Завдання 2 - Список друзів
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Необхідно створити компонент <FriendList>, за допомогою якого ми могли б
+відображати інформацію про друзів користувача.
+
+Завдання 3 - Історія транзакцій
+
+Необхідно створити компонент історії транзакцій в особистому кабінеті
+інтернет-банку.

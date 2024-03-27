@@ -1,14 +1,17 @@
+import Profile from './components/Profile/Profile';
+import FriendList from './components/FriendList/FriendList';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 
-function App() {
+import userData from '../src/userData.json';
+import friends from './friends.json';
+import transactions from './transactions.json';
 
+export default function App() {
   return (
     <>
-      <h1>Vite + React</h1>
-          <p>Petra Marica</p>
-    <p>@pmarica</p>
-    <p>Salvador, Brasil</p>
+      <Profile userData={userData} />
+      <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions} />
     </>
-  )
+  );
 }
-
-export default App
